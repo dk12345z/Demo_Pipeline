@@ -40,8 +40,8 @@
 	<distributionManagement>
    <repository>
      <id>github</id>
-     <name>GitHub NidaAP Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/NidaAP/Demo_Pipeline</url>
+     <name>GitHub Nida A P Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/Nida A P/Demo_Pipeline</url>
    </repository>
 </distributionManagement>
 </project>
