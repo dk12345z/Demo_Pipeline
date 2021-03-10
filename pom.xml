@@ -41,7 +41,7 @@
 		<repository>
 			<id>artifactory</id>
 			<name>Calculator_GitOps</name>
-			<url>http://localhost:8081/artifactory/Calculator_GitOps</url>
+			<url>http://192.168.56.1:8081/artifactory/Calculator_GitOps</url>
 		</repository>
 	</distributionManagement>
 </project>
