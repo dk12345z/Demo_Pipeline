@@ -24,6 +24,13 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
+    - name: print the workspace location
+      run: |
+        echo "GITHUB_WORKSPACE = $GITHUB_WORKSPACE"
+        echo "github.workspace = ${{ github.workspace }}"
+        echo "pr.ref = ${{github.event.pull_request.head.ref}}"
+        echo "github.ref = ${{ github.ref }}"
+        echo "$GITHUB_CONTEXT"
     - name: Publish to GitHub Packages Apache Maven
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       # env:
